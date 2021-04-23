@@ -1,0 +1,29 @@
+ALGORITHM number_of_char
+VAR
+    k:= INTEGER :=0
+    z:= INTEGER :=0
+    y: INTEGER :=0;
+    j:INTEGER :=0;
+    x: INTEGER :=0;
+    i: INTEGER :=0;
+    char: STRING; 
+BEGIN 
+    FOR i FROM 0 TO char.length STEP 1  DO
+        x:=x+1
+    END_FOR 
+    write("number of characters is :"+x);
+    FOR j FROM 0 TO cahr.length STEP 1  DO
+    IF (char[j]:=" ") THEN
+    y:=y+1
+    END_IF
+    END_FOR
+    write("number of word is:"+ y)
+    FOR k FROM 0 TO char.length STEP 1  DO
+        IF ((char[k]:="a") Or (char[k]:="e") Or (char[k]:="i") Or( char[k]:= "o") Or (char[k]:= "u")) THEN
+            z:=z+1
+        END_IF
+    END_FOR
+    write ("number of vowels is"+ z)
+END
+ 
+
