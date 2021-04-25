@@ -13,13 +13,13 @@ BEGIN
     END_FOR 
     write("number of characters is :"+x);
     FOR j FROM 0 TO cahr.length STEP 1  DO
-    IF (char[j]:=" ") THEN
+    IF (char[j]=" ") THEN
     y:=y+1
     END_IF
     END_FOR
     write("number of word is:"+ y)
     FOR k FROM 0 TO char.length STEP 1  DO
-        IF ((char[k]:="a") Or (char[k]:="e") Or (char[k]:="i") Or( char[k]:= "o") Or (char[k]:= "u")) THEN
+        IF ((char[k]="a") Or (char[k]="e") Or (char[k]="i") Or( char[k]="o") Or (char[k]="u")) THEN
             z:=z+1
         END_IF
     END_FOR
